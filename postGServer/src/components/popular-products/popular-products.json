@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_popular_products_popular_products",
+  "info": {
+    "displayName": "popular-products"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "products": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::product.product"
+    }
+  }
+}

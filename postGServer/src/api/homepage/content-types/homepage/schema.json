@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "homepage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "homePopularProducts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "popular-products.popular-products"
+    }
+  }
+}
